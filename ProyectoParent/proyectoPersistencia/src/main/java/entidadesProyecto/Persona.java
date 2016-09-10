@@ -8,6 +8,11 @@ import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
+/**
+ * Clase padre para definir entidades
+ * @author Calderón Robledo
+ *
+ */
 @MappedSuperclass
 public class Persona implements Serializable {
 
