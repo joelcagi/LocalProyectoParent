@@ -17,6 +17,8 @@ public class Asesoria implements Serializable {
 	@OneToOne
 	private Asignatura asignatura;
 	@Enumerated (EnumType.STRING)
+	@ManyToOne
+	private Docente docente;
 	private EnumDias dia;   
 	@Id
 	@Column
